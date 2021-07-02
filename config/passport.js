@@ -21,6 +21,7 @@ module.exports = function (passport) {
           image: profile.photos[0].value,
           email: profile.emails[0].value
         }
+        console.log(profile)
 
         try {
           //find the user in our database 
